@@ -1,0 +1,97 @@
+body{
+	background-color: #FFE6CF;/*color de fondo*/
+	color: #AD9186;/*color de letra*/
+}
+
+#barra a{ /*estilo a las etiquetas a*/
+	text-decoration: none;
+	color: white;
+}
+
+#barra a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+#barra{ /* formato a todo el id: barra*/;
+	background-color: #D1BDA1;/*color de fondo*/
+	position: absolute;/* tomara todo el espacio*/
+	left: 0;/* para que tome el lugar del margen a la izq*/
+	top: 0;/* para que suba al margen superior*/
+	display: block;
+	width: 100%;
+}
+
+#barra ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#barra li{
+	float: left;
+}
+
+#barra li a{
+	padding: 30px; /*espacio entre los elementos*/
+	display: inline-block;
+	text-decoration: none;
+}
+
+#barra li a:hover{
+	background-color: brown;
+	color: black;
+}
+
+img{
+	width: 40%;
+}
+
+/*identificador de contenido*/
+
+#contenido{
+	max-width: 100%;
+	position: relative;
+	top: 80px;
+	margin: 0 auto;
+	background-color: #D1BDA1;
+	padding: 2%;
+}
+
+#contenido header{
+	height: 120px;/* alto*/
+	padding: 10px 20px;
+	background-color: brown;
+	border: dotted;
+	border-radius: 1em;
+	color: white;
+}
+
+#principal{
+	width: 35%;/*ancho*/
+	float: left;/* ubicar a la izq*/
+	padding: 4px;/*espaciado*/
+}
+
+#secundario{
+	width: 35%;/*ancho*/
+	float: left;/* ubicar a la izq*/
+	padding: 4px;/*espaciado*/
+}
+
+#contenido aside{
+	width: 20%;/*ancho*/
+	float: left;
+	padding: 4px;/*espaciado*/
+}
+
+#contenido footer{
+	clear: both;
+	width: 100%;
+	background-color: brown;
+	height: 50px;
+	color: white;
+	text-align: center;
+	border: dotted;
+	border-radius: 1em;
+}
